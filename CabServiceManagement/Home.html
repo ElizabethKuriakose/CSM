@@ -1,51 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="CSS/style.css" type="text/css">
-    <title>Home Page</title>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets\style\header-style.css" type="text/css">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 </head>
-<body>
-    <div class="container-fluid p-5 bg-warning text-white text-center" style="height: 185px;">
-        <img src="logo.jpg" height="135px" width="135px" style="float:left"></img>
-        <h1 style="font-size: 70px;">BookMyCab</h1>
-        <nav>
-          <ul>  
-              <li><a href="#home">Home</a></li>  
-              <li><a href="#">About</a></li>  
-              <li><a href="Booking.html">Book a trip</a></li>  
-              <li><a href="#">Blog</a></li> 
-              <li><a href="#">Contact As</a></li>  
-            </ul>  
-          </nav> 
-      </div>
-      <div class="has-bg-img">
-        <img src="cab.jpg" class="img-fluid" alt="Responsive image" width="1700" height="1700" style="opacity: 2;">
-             <div class="carousel-caption" style="display: flex; justify-content: left; align-items :left"> 
-             <h1 style="font-size: 80px;">Make your trip something special</h1> 
-           </div> 
-      </div>
-      
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>We’re specialized in providing a high quality service...</h3>
-           
-          </div>
-          <div class="col-sm-4">
-            <h3 style="color: orange;">Your first choice
-              for traveling anywhere...</h3>
-            
-          </div>
-          <div class="col-sm-4">
-            <h3>Enjoy your comfortable trip with BookMyCab...</h3>        
-            
+
+<body style="background-image: url(bk.png);background-repeat: no-repeat;background-size: cover;">
+  <header>
+    <!-- place navbar here -->
+    <div>
+      <nav class="navbar navbar-expand-sm navbar-light nav-style">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="logo.png"></a>
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#" aria-current="page">Home <span
+                    class="visually-hidden">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About As</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <span id="header">BookMyCab</span>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav-item"><a class="nav-link active text-white" href="register-user.html"><span
+                    class="glyphicon glyphicon-user">Sign Up</span></a></li>
+              <li class="nav-item"><a class="nav-link active text-white" href="login.html"><span
+                    class="glyphicon glyphicon-log-in">Sign In</span></a></li>
+              <li></li>
+            </ul>
+            <!--<form class="d-flex my-2 my-lg-0">
+                      <input class="form-control me-sm-2" type="text" placeholder="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>-->
           </div>
         </div>
-      </div>
-      
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="hero">
+    <div class="container p-3 my-3 text-white carousel-caption">
+      <h1>Your first choice for traveling anywhere...</h1>
+      <p>Enjoy your comfortable trip with BookMyCab...</p>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <!-- place footer here -->
+    
+    
+
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
